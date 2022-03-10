@@ -1,4 +1,205 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none;
+  box-sizing: border-box;
+ 
+}
+html{
+  overflow-x: hidden;
+  
+}
+body{
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
+
+
+.header{
+ background: url(./Components/Img/IMAGE\ \(1\).jpg) ;
+  width: 100%;
+
+  padding-bottom: 190px;
+  size: cover;
+  background-repeat: no-repeat;
+
+}
+.header_top .menu_top{
+  align-items: center !important;
+  display: flex;
+}
+ 
+
+
+
+
+
+.header_top .navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  margin: auto;
+
+}
+.header_top .navbar .logo{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+.header_top .navbar ul{
+  display: flex;
+  align-items: center;
+  margin: 0!important;
+  
+
+}
+
+.header_top .navbar ul li a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 3rem;
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: 500;
+  color: #999999;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+
+.header_top .navbar ul li .active{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 3rem;
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: 500;
+  color: #00D6B4;
+  line-height: 17px;
+  letter-spacing: 1px;
+
+}
+.header_top .navbar ul li a:hover{
+  color: #00D6B4;
+
+
+}
+
+.header_main .he-me-blok{
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 140px;
+}
+
+
+.header_main .he-me-blok h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin: auto;
+  line-height: 57px;
+}
+
+
+.header_main .he-me-blok .btn{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00D6B4;
+  border: 1px solid #00D6B4;
+  border-radius: 3px;
+  background: transparent;
+  padding: 12px 35px;
+  margin-top: 35px;
+
+
+
+}
+
+body{
+
+  background: #222222 !important;
+
+}
+main{
+  margin-bottom: 50px;
+}
+
+main h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+
+
+main  img{
+  width: 100%;
+
+}
+main .mabo{
+  margin-bottom: 21px;
+}
+
+
+footer{
+  margin-bottom: 45px;
+}
+
+.footr  h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #C2C2C2;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+
+}
+
+.footr  p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #999999;
+letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +236,8 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
+
+/* how to use the media screen in react */
